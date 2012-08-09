@@ -8,11 +8,11 @@ the USB drivers).
 Note that the DLL's contained in this repo must be in the target machines path for IDL to 
 be able to call the routines in them. The DLL's are:
 
-AIOUSB.dll - USB driver 
-ATMCD32D.dll - Andor EMCCD camer driver
-dforrt.dll - Fortran runtime library, used by HWM for example
-idl32.dll - IDL's external interface
-PCOMM.dll - The MOXA usb-hub driver
+* AIOUSB.dll - USB driver 
+* ATMCD32D.dll - Andor EMCCD camer driver
+* dforrt.dll - Fortran runtime library, used by HWM for example
+* idl32.dll - IDL's external interface
+* PCOMM.dll - The MOXA usb-hub driver
 
 To build sdi_external.dll: 
 download code::blocks from http://www.codeblocks.org/downloads/26#windows, select the 

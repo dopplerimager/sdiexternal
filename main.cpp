@@ -2821,6 +2821,22 @@ extern "C" SDI_API int uMoxaCheckOutPort(int argc, void *argv[])
 	return ret;
 }
 
+//FLUSH BUFFERS (args are: int port, int function( 0 flush input, 1 flush output, 2 flush both))
+extern "C" SDI_API int uMoxaFlush(int argc, void *argv[])
+{
+	int *port;
+	int *func;
+	int ret;
+
+	port = (int *) argv[0];
+	func = (int *) argv[1];
+
+	ret = sio_flush (*port, *func);
+
+	return ret;
+}
+
+
 
 // AIOUSB ROUTINES
 

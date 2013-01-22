@@ -5,7 +5,7 @@ This repo contains the source code and code::blocks project for building the DLL
 which enables IDL to call routines in external DLL's (the Andor camera, the MOXA driver, 
 the USB drivers). 
 
-Note that the DLL's contained in this repo must be in the target machines path for IDL to 
+Note that the DLL's contained in this repo must be in the target machines' path for IDL to 
 be able to call the routines in them. The DLL's are:
 
 * AIOUSB.dll - USB driver 
